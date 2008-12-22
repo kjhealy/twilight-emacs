@@ -17,6 +17,9 @@
 ;; MIT License Copyright (c) 2008 Marcus Crafter <crafterm@redartisan.com>
 ;; Credits due to the excellent TextMate Twilight theme
 ;;
+;; Forked Version by Travis Jeffery
+;; Adds support for ido-mode and fixes the minibuffer-prompt to fit in with the rest of the theme
+
 
 (defun color-theme-twilight ()
   "Color theme by Marcus Crafter, based off the TextMate Twilight theme, created 2008-04-18"
@@ -47,6 +50,12 @@
      (font-lock-regexp-grouping-backslash ((t (:foreground "#E9C062"))))
      (font-lock-regexp-grouping-construct ((t (:foreground "red"))))
 
+     (minibuffer-prompt ((t (:foreground "#5F5A60"))))
+     (ido-subdir ((t (:foreground "#CF6A4C"))))
+     (ido-first-match ((t (:foreground "#8F9D6A"))))
+     (ido-only-match ((t (:foreground "#8F9D6A"))))
+     (mumamo-background-chunk-submode ((t (:background "#222222"))))     
+
      (font-lock-string-face ((t (:foreground "#8F9D6A"))))
      (font-lock-type-face ((t (:foreground "#9B703F"))))
      (font-lock-variable-name-face ((t (:foreground "#7587A6"))))
@@ -62,3 +71,4 @@
      (toolbar ((t (nil))))
      (underline ((nil (:underline nil))))
      (zmacs-region ((t (:background "snow" :foreground "ble")))))))
+

@@ -18,7 +18,12 @@
 ;; Credits due to the excellent TextMate Twilight theme
 ;;
 ;; Forked Version by Travis Jeffery
-;; Adds support for ido-mode and fixes the minibuffer-prompt to fit in with the rest of the theme
+;; Adds support for ido-mode and fixes the minibuffer-prompt to fit in
+;; with the rest of the theme
+;;
+;; Forked Version by Kieran Healy
+;; Replaced white and black with more moderate colors; merged with
+;; Travis Jeffrey's fork.
 
 
 (defun color-theme-twilight ()

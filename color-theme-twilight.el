@@ -76,7 +76,7 @@
      (toolbar ((t (nil))))
      (underline ((nil (:underline nil))))
      (zmacs-region ((t (:background "snow" :foreground "ble"))))
-
+     
      (font-latex-sectioning-0-face ((t (:bold t :foreground "dodger blue" :height 4))))
      (font-latex-sectioning-1-face ((t (:bold t :foreground "dodger blue" :height 2.5))))
      (font-latex-sectioning-2-face ((t (:bold t :foreground "dodger blue" :height 1.5))))
@@ -100,3 +100,4 @@
      (org-todo ((t (:bold t :foreground "Red"))))
      (org-done ((t (:bold t :foreground "ForestGreen"))))
      )))
+
